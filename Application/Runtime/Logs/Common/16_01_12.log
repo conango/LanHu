@@ -1,0 +1,12 @@
+[ 2016-01-12T13:01:42+08:00 ] ::1 /a.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+ERR: 无法加载模块:A
+
+[ 2016-01-12T13:02:02+08:00 ] ::1 /alipay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载模块:Alipay
+

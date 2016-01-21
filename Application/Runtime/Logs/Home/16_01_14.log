@@ -1,0 +1,135 @@
+[ 2016-01-14T09:15:57+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020058s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.1158s ]
+SQL: SELECT `id`,`category_name_ch`,`category_name_en`,`link` FROM `category` ORDER BY id  [ RunTime:0.0005s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (0+1) ) ORDER BY b.parent_id  [ RunTime:0.0771s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (1+1) ) ORDER BY b.parent_id  [ RunTime:0.0006s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (2+1) ) ORDER BY b.parent_id  [ RunTime:0.0005s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (3+1) ) ORDER BY b.parent_id  [ RunTime:0.0004s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (4+1) ) ORDER BY b.parent_id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.027674s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.027958s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.582140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.582402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.034516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041346s ]
+
+[ 2016-01-14T09:17:46+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0214s ]
+SQL: SELECT `id`,`category_name_ch`,`category_name_en`,`link` FROM `category` ORDER BY id  [ RunTime:0.0006s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (0+1) ) ORDER BY b.parent_id  [ RunTime:0.0007s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (1+1) ) ORDER BY b.parent_id  [ RunTime:0.0007s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (2+1) ) ORDER BY b.parent_id  [ RunTime:0.0007s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (3+1) ) ORDER BY b.parent_id  [ RunTime:0.0007s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (4+1) ) ORDER BY b.parent_id  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003507s ]
+
+[ 2016-01-14T09:19:08+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-01-14T09:22:00+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009120s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0122s ]
+SQL: SELECT `id`,`category_name_ch`,`category_name_en`,`link` FROM `category` ORDER BY id  [ RunTime:0.0006s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (0+1) ) ORDER BY b.parent_id  [ RunTime:0.0008s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (1+1) ) ORDER BY b.parent_id  [ RunTime:0.0004s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (2+1) ) ORDER BY b.parent_id  [ RunTime:0.0004s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (3+1) ) ORDER BY b.parent_id  [ RunTime:0.0004s ]
+SQL: SELECT b.id,b.sub_category_name_ch,b.sub_category_name_en,b.link FROM category a INNER JOIN sub_category b ON b.parent_id= a.id  WHERE ( a.id = (4+1) ) ORDER BY b.parent_id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.271201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.050864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.051264s ]
+
