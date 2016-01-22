@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "dependencies": {
+    "classie": "^1.0.0",
+    "typescript": "^1.7.5"
+  },
+  "devDependencies": {
+    "bower": "^1.6.8",
+    "csstyle": "^1.5.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "typedoc": "^0.3.12"
+  }
+}

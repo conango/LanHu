@@ -1,0 +1,7 @@
+/.idea
+/bower_components
+/node_modules
+/Application/Runtime
+.DS_Store
+/**/*.psd
+/**/*.ai

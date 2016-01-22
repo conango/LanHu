@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/**
+* App
+*/
+@import '../../../../node_modules/csstyle/csstyle';
+
+@include component(test-component) {
+
+  color: #000;
+
+  @include part(test-part) {
+    background: #FFF;
+
+    @include option(test-option) {
+      margin: 5%;
+    }
+
+  }
+
+  @include option(test-option-outer) {
+    margin: 10%;
+  }
+
+}

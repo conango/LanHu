@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "out": "../../../../Public/js/app.js"
+  },
+  "exclude": [
+    "node_modules",
+    "ThinkPHP",
+    "Application"
+  ]
+}
