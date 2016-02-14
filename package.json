@@ -2,6 +2,8 @@
   "private": true,
   "dependencies": {
     "classie": "^1.0.0",
+    "foundation-grid": "^0.1.0",
+    "resetcss": "^1.0.2",
     "typescript": "^1.7.5"
   },
   "devDependencies": {

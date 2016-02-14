@@ -3,7 +3,14 @@
 /**
 * App
 */
+@import '../../../../node_modules/foundation-grid/grid.scss';
 @import '../../../../node_modules/csstyle/csstyle';
+@import '../../../../node_modules/resetcss/reset.css';
+
+/**
+* Modules
+*/
+@import 'modules/Intro';
 
 @include component(test-component) {
 
